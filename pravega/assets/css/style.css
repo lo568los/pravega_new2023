@@ -477,7 +477,10 @@ Navbar CSS
 }
 
 .elkevent-mobile-nav.mean-container .mean-nav ul li a.active {
-  color: #FF2D55;
+  background-image: -webkit-linear-gradient(0deg, #f72585, #a92fde 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .elkevent-nav {
@@ -519,7 +522,10 @@ Navbar CSS
 }
 
 .elkevent-nav nav .navbar-nav .nav-item a:hover, .elkevent-nav nav .navbar-nav .nav-item a:focus, .elkevent-nav nav .navbar-nav .nav-item a.active {
-  color: #FF2D55;
+  background-image: -webkit-linear-gradient(0deg, #f72585, #a92fde 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .elkevent-nav nav .navbar-nav .nav-item:hover a {
@@ -722,25 +728,30 @@ Main Banner CSS
 }
 
 .item-bg1 {
-  background-image: url(../../assets/img/main-bg1.jpg);
+  background-image: url("../../assets/img/main-bg1.jpg");
 }
 
 .item-bg2 {
-  background-image: url(../../assets/img/main-bg2.jpg);
+  background-image: url("../../assets/img/sponsor.JPG");
 }
 
 .item-bg3 {
-  background-image: url(../../assets/img/home/landing.jpg);
+  background-image: url("../../assets/img/home/landing.jpg");
 }
 
 .item-bg4 {
-  background-image: url(../../assets/img/home/ramayan.png);
+  background-image: url('../../assets/img/home/ramayan.png');
 }
 
 .item-bg5 {
-  background-image: url(../../assets/img/home/tablefootball_11zon.jpg);
+  background-image: url('../../assets/img/home/tablefootball_11zon.jpg');
 }
-
+.item-bg7 {
+  background-image: url("../../assets/img/bg4.JPG");
+}
+.item-bg8 {
+  background-image: url("../../assets/img/bg5.JPG");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
@@ -902,9 +913,8 @@ Main Banner CSS
 
 .countdown-area {
   padding: 50px 0;
-  background: #8dc63f;
+  background: -webkit-linear-gradient(0deg, #f72585, #a92fde 100%);
 }
-
 .countdown-area .event-countdown {
   position: relative;
   right: 0;
@@ -937,7 +947,7 @@ Main Banner CSS
 }
 
 .event-countdown #timer div#days {
-  color: #FF2D55;
+  color: #b9d41e;
 }
 
 .event-countdown #timer div#hours {
@@ -3478,7 +3488,7 @@ Page Title CSS
   z-index: -1;
   width: 100%;
   height: 100%;
-  background: #0d1028;
+  background: #222329;
   opacity: .88;
 }
 
@@ -3715,8 +3725,12 @@ Signup CSS
 404 Error CSS
 =================================================*/
 .error-area {
-  background-color: #f1f1f1;
-  padding: 30px 15px;
+  background-image: url("../img/bg3.JPG");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  margin: 0 0;
   height: 100vh;
   text-align: center;
 }
@@ -3740,10 +3754,14 @@ Signup CSS
 
 .error-area h3 {
   margin: 35px 0 15px;
+  color: #fff;
 }
 
 .error-area p {
   margin: 10px 0 20px;
+  color: #fff;
+  font-weight:600;
+  font-size: 1.2rem;
 }
 
 /*================================================
@@ -7855,6 +7873,5 @@ Footer Area CSS
 .copyright-wrap-area .list li a:hover {
   color: #FF2D55;
 }
-
 /* End "Marketing", "Education" & "Health" "Demo CSS" */
 /*# sourceMappingURL=style.css.map */
