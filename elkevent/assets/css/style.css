@@ -820,7 +820,7 @@ Main Banner CSS
 }
 
 .main-banner-content p {
-  color: #efa506;
+  color: white;
   font-family: "Oswald", sans-serif;
   font-size: 22px;
   font-style: italic;
@@ -829,7 +829,7 @@ Main Banner CSS
 }
 
 .main-banner-content p span {
-  color: #00acee;
+  color: purple;
 }
 
 .main-banner-content .button-box a {
