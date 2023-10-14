@@ -180,7 +180,7 @@ p:last-child {
   position: absolute;
   top: 0;
   width: 51%;
-  background: #00acee;
+  background: #8f2ccd;
   height: 100%;
   z-index: -1;
   -webkit-transition: 0.5s;
@@ -742,7 +742,7 @@ Main Banner CSS
 }
 
 .main-banner-content {
-  max-width: 850px;
+ /* max-width: 850px;*/
   position: relative;
   z-index: 1;
 }
@@ -771,11 +771,21 @@ Main Banner CSS
   font-weight: 900;
   font-size: 65px;
 }
-
+.pravega  {
+  /*color: #8f2ccd;*/
+  background-image: -webkit-linear-gradient(0deg, #f72585, #a92fde 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline;
+  
+}
+.bg-pravega{
+  background-image: -webkit-linear-gradient(0deg,  #a92fde, #f72585 100%);
+}
 .main-banner-content h1 span {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
-  background-size: 100px 1.2em !important;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #f72585));
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #f72585);
 }
 
 .main-banner-content h1 b:nth-of-type(1) {
@@ -820,7 +830,7 @@ Main Banner CSS
 }
 
 .main-banner-content p {
-  color: #efa506;
+  color: #fff;
   font-family: "Oswald", sans-serif;
   font-size: 22px;
   font-style: italic;
@@ -829,7 +839,7 @@ Main Banner CSS
 }
 
 .main-banner-content p span {
-  color: #00acee;
+  color: #8f2ccd;
 }
 
 .main-banner-content .button-box a {
@@ -873,7 +883,7 @@ Main Banner CSS
           animation-delay: 3s;
   opacity: 0;
   border-radius: 50%;
-  background: rgba(51, 102, 204, 0.5);
+  background: #8f2ccd;
 }
 
 .main-banner-content .button-box .video-btn:hover, .main-banner-content .button-box .video-btn:focus {
