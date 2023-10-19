@@ -49,7 +49,7 @@
 		  .then(response => response.text())
 		  .then(data => {
 			document.getElementById('header-container').innerHTML = data;
-		  });
+		  }).then(data => {document.getElementById("sponsor").classList.add('pravega');});
 	  </script>
 	<!-- End Navbar Area -->
 
