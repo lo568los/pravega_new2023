@@ -752,6 +752,15 @@ Main Banner CSS
 .item-bg8 {
   background-image: url("../../assets/img/bg5.JPG");
 }
+.item-bgrbg {
+  background-image: url("../../assets/img/scitech/robo_bg.png");
+}
+.item-bgsci {
+  background-image: url("../../assets/img/scitech/scitech_bg.png");
+}
+.item-bgcul{
+  background-image: url("../../assets/img/home/ramayan.png");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
@@ -1280,6 +1289,13 @@ About CSS
   background-repeat: no-repeat;
 }
 
+.about-area.bg-culturals{
+  background-image: url(../../assets/img/home/ramayan.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .about-content span {
   color: #FF2D55;
   font-family: "Oswald", sans-serif;
@@ -1480,7 +1496,7 @@ Why Choose Us CSS
 }
 
 .why-choose-us .slideshow li:nth-child(1) span {
-  background-image: url(../../assets/img/slideshow-bg1.jpg);
+  background-image: url(../../assets/img/scitech/robo_bg.png);
 }
 
 .why-choose-us .slideshow li:nth-child(2) span {
@@ -2856,6 +2872,18 @@ Pricing CSS
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+
+.pricing-area::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(0deg,#a92fde, #f72585 100%);
+  opacity: .68;
 }
 
 .pricing-table-box {
