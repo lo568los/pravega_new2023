@@ -25,8 +25,8 @@
         autoplay: true,
         items: 1,
         navText: [
-            "<i class='icofont-rounded-left'></i>",
-            "<i class='icofont-rounded-right'></i>"
+            "<i class=\"fas fa-chevron-left\"></i>",
+            "<i class=\"fas fa-chevron-right\"></i>"
         ],
     });
     $(".home-slides").on("translate.owl.carousel", function(){
@@ -117,8 +117,8 @@
         autoplayHoverPause: true,
         autoplay: true,
         navText: [
-            "<i class='icofont-rounded-left'></i>",
-            "<i class='icofont-rounded-right'></i>"
+            "<i class=\"fas fa-chevron-left\"></i>",
+            "<i class=\"fas fa-chevron-right\"></i>"
         ],
         responsive: {
             0: {
@@ -142,8 +142,8 @@
         autoplayHoverPause: true,
         autoplay: true,
         navText: [
-            "<i class='icofont-rounded-left'></i>",
-            "<i class='icofont-rounded-right'></i>"
+            "<i class=\"fas fa-chevron-left\"></i>",
+            "<i class=\"fas fa-chevron-right\"></i>"
         ],
         responsive:{
             0: {
@@ -167,8 +167,8 @@
         autoplayHoverPause: true,
         autoplay: true,
         navText: [
-            "<i class='icofont-rounded-left'></i>",
-            "<i class='icofont-rounded-right'></i>"
+            "<i class=\"fas fa-chevron-left\"></i>",
+            "<i class=\"fas fa-chevron-right\"></i>"
         ],
         responsive:{
             0: {
@@ -193,8 +193,8 @@
         autoplay: true,
         items: 1,
         navText: [
-            "<i class='icofont-rounded-left'></i>",
-            "<i class='icofont-rounded-right'></i>"
+            "<i class=\"fas fa-chevron-left\"></i>",
+            "<i class=\"fas fa-chevron-right\"></i>"
         ],
     });
     
