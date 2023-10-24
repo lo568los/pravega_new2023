@@ -791,6 +791,9 @@ Main Banner CSS
 .item-bgcul{
   background-image: url("../../assets/img/home/ramayan.png");
 }
+.item-bgrbgchem {
+  background-image: url("../../assets/img/chem1.JPG");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
@@ -3568,7 +3571,7 @@ Subscribe CSS
 /*================================================
 Page Title CSS
 =================================================*/
-.page-title-area {
+.page-title-area,.page-title-area-chem {
   position: relative;
   z-index: 1;
   background-position: center center;
@@ -3590,15 +3593,26 @@ Page Title CSS
   background: #222329;
   opacity: .88;
 }
+.page-title-area-chem::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #323232;
+  opacity: .8;
+}
 
-.page-title-area h1 {
+.page-title-area h1,.page-title-area-chem h1  {
   color: #ffffff;
   margin-bottom: 0;
   text-transform: uppercase;
   font-size: 40px;
 }
 
-.page-title-area span {
+.page-title-area span,.page-title-area-chem span  {
   display: block;
   color: #FF2D55;
   margin-top: 10px;
@@ -3606,7 +3620,7 @@ Page Title CSS
   font-size: 17px;
 }
 
-.page-title-area ul {
+.page-title-area ul, .page-title-area-chem ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -3615,7 +3629,7 @@ Page Title CSS
   right: 20px;
 }
 
-.page-title-area ul li {
+.page-title-area ul li, .page-title-area-chem ul li {
   display: inline-block;
   position: relative;
   color: #FF2D55;
@@ -3623,15 +3637,15 @@ Page Title CSS
   margin: 0 8px;
 }
 
-.page-title-area ul li a {
+.page-title-area ul li a , .page-title-area-chem ul li a {
   color: #ffffff;
 }
 
-.page-title-area ul li a:hover, .page-title-area ul li a:focus {
+.page-title-area ul li a:hover, .page-title-area ul li a:focus,.page-title-area-chem ul li a:hover, .page-title-area-chem ul li a:focus  {
   color: #00acee;
 }
 
-.page-title-area ul li::before {
+.page-title-area ul li::before, .page-title-area-chem ul li::before {
   content: '';
   position: absolute;
   left: -10px;
@@ -3644,15 +3658,15 @@ Page Title CSS
           transform: rotate(10deg);
 }
 
-.page-title-area ul li:first-child {
+.page-title-area ul li:first-child , .page-title-area-chem ul li:first-child {
   margin-left: 0;
 }
 
-.page-title-area ul li:first-child::before {
+.page-title-area ul li:first-child::before, .page-title-area-chem ul li:first-child::before {
   display: none;
 }
 
-.page-title-area ul li:last-child {
+.page-title-area ul li:first-child::before, .page-title-area-chem ul li:first-child::before {
   margin-right: 0;
 }
 
