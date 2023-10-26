@@ -3990,6 +3990,7 @@ Coming Soon CSS
   background-repeat: no-repeat;
 }
 
+
 .coming-soon::before {
   z-index: -1;
   width: 100%;
