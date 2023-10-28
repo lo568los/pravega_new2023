@@ -3,13 +3,14 @@
 
 <head>
 	<!-- Required meta tags -->
+    <base href="../">
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
 	<!-- Bootstrap Min CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
 	<!-- MeanMenu CSS -->
-	<link rel="stylesheet" href="../assets/css/meanmenu.css">
+	<link rel="stylesheet" href="assets/css/meanmenu.css">
 	<!-- FontAwesome Min CSS -->
 	<!-- Animate Min CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -18,19 +19,25 @@
 	<!-- Fancybox Min CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
 	<!-- Odometer Min CSS -->
-	<link rel="stylesheet" href="../assets/css/odometer.min.css">
+	<link rel="stylesheet" href="assets/css/odometer.min.css">
 	<!-- Owl Carousel Min CSS -->
-	<link rel="stylesheet" href="../assets/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 	<!-- Style CSS -->
-	<link rel="stylesheet" href="../assets/css/style.css">
+	<link rel="stylesheet" href="assets/css/style.css">
 	<!-- Responsive CSS -->
-	<link rel="stylesheet" href="../assets/css/responsive.css">
+	<link rel="stylesheet" href="assets/css/responsive.css">
 		<!-- IcoFont Min CSS -->
-		<link rel="stylesheet" href="../assets/css/icofont.min.css">
-
+		<link rel="stylesheet" href="assets/css/icofont.min.css">
+    <script lang="javascript">
+        !fetch('/pravega/header.html')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('header-container').innerHTML = data;
+                }).then(data => {document.getElementById("merch").classList.add("pravega")});
+    </script>
 	<title>Pravega X - Cognavi Ascend</title>
 
-	<link rel="icon" type="image/png" href="../assets/img/logo/x.png">
+	<link rel="icon" type="image/png" href="assets/img/logo/x.png">
 </head>
 
 <body>
@@ -42,192 +49,11 @@
 <!-- Start Navbar Area -->
 <div class="elkevent-mobile-nav">
     <div class="logo">
-        <a href="../index.html"><img src="../assets/img/logo/pravegax.png" alt="logo"></a>
+        <a href="index.html"><img src="assets/img/logo/pravegax.png" alt="logo"></a>
     </div>
 </div>
 
-<div class="elkevent-nav">
-    <div class="container">
-        <nav class="navbar navbar-expand-md navbar-light">
-            <a class="navbar-brand" href="../index.html"><img src="../assets/img/logo/pravegax.png" width="200px"
-                    alt="logo"></a>
-
-            <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto">
-                    <!--	<li class="nav-item"><a href="#" class="nav-link active">Home</a>
-                                    <ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="index.html" class="nav-link">Home Page 1</a></li>
-                                        
-                                        <li class="nav-item"><a href="index-2.html" class="nav-link">Home Page 2</a></li>
-
-                                        <li class="nav-item"><a href="index-3.html" class="nav-link">Home Page 3</a></li>
-
-                                        <li class="nav-item"><a href="index.html" class="nav-link active">Home Page 4</a></li>
-                                        
-                                        <li class="nav-item"><a href="index-5.html" class="nav-link">Home Page 5</a></li>
-
-                                        <li class="nav-item"><a href="index-6.html" class="nav-link">Home Page 6</a></li>
-
-                                        <li class="nav-item"><a href="index-7.html" class="nav-link">Home Page 7</a></li>
-
-                                        <li class="nav-item"><a href="index-8.html" class="nav-link">Home Page 8 (Marketing)</a></li>
-
-                                        <li class="nav-item"><a href="index-9.html" class="nav-link">Home Page 9 (Education)</a></li>
-
-                                        <li class="nav-item"><a href="index-10.html" class="nav-link">Home Page 10 (Health)</a></li>
-                                    </ul>
-                                </li>-->
-
-                    <li class="nav-item" ><a href="#events" id="events" class="nav-link pravega">Events</a>
-                        <ul class="dropdown-menu">
-                            <li class="nav-item" id="sic-tecj"><a href="../sci-tech.html" class="nav-link">Sci-Tech</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="../sci-tech/artpark.html" class="nav-link">ARTPARK-Pravega Robotics Challenge</a></li>
-                                    <li class="nav-item"><a href="../sci-tech/al.html" class="nav-link">Innomobility Challenge</a></li>
-                                    <li class="nav-item"><a href="../sci-tech/cognavi.html" class="nav-link">Cognavi Ascend</a></li>
-                                    <li class="nav-item"><a href="../sci-tech/deco.html" class="nav-link">Decoherence</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/bio.html" class="nav-link">Bioblitz</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/chem.html" class="nav-link">Chemenigma</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/enum.html" class="nav-link">Enumeration</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/quad.html" class="nav-link">Quadsparks</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/bah.html" class="nav-link">Bad Ad-Hoc
-                                            Hypothesis</a></li>
-
-                                    <li class="nav-item"><a href="../sci-tech/pis.html" class="nav-link">PIS</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/exhi.html" class="nav-link">Exhibitions</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/hoco.html" class="nav-link">Honour
-                                            Code</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../sci-tech/stem.html" class="nav-link">Stemposium</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-
-                            <!--<li class="nav-item"><a href="#" class="nav-link">Pricing</a>
-                                            <ul class="dropdown-menu">
-                                                <li class="nav-item"><a href="pricing-1.html" class="nav-link">Pricing 1</a></li>
-        
-                                                <li class="nav-item"><a href="pricing-2.html" class="nav-link">Pricing 2</a></li>
-                                            </ul>
-                                        </li>-->
-
-                            <li class="nav-item" id="recre"><a href="#recre" class="nav-link">Recreationals</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="../recreationals/chess.html" class="nav-link">Chess</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../recreationals/ki.html" class="nav-link">Killer
-                                            Instinct</a></li>
-
-                                </ul>
-                            </li>
-                            <li class="nav-item" id="cult"><a href="../culturals.html" class="nav-link">Culturals</a>
-                                <ul class="dropdown-menu">
-                                    <li class="nav-item"><a href="../culturals/bob.html" class="nav-link">Battle of
-                                            Bands</a></li>
-
-                                    <li class="nav-item"><a href="../culturals/ele.html" class="nav-link">Elegante</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../culturals/lasya.html" class="nav-link">Lasya</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../culturals/alekhya.html" class="nav-link">Alekhya</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../culturals/pros.html" class="nav-link">Proscenium and
-                                            Footprints</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../culturals/cwfire.html" class="nav-link">Cooking
-                                            Without Fire</a></li>
-
-                                    <li class="nav-item"><a href="../culturals/dianoia.html" class="nav-link">Dianoia</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../culturals/mun.html" class="nav-link">Model
-                                            United Nations</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../culturals/shutter.html" class="nav-link">Shutter
-                                            Bugs</a>
-                                    </li>
-
-                                    <li class="nav-item"><a href="../culturals/cres.html" class="nav-link">Crescendo</a>
-                                    </li>
-
-                                </ul>
-                            </li>
-                            <li class="nav-item" id="cult"><a href="../workshops.html" class="nav-link">Workshops</a></li>
-                        </ul>
-
-                    </li>
-
-                    <!--<li class="nav-item"><a href="login.html" class="nav-link">Login</a></li>
-
-                                        <li class="nav-item"><a href="signup.html" class="nav-link">Sign Up</a></li>
-
-                                        <li class="nav-item"><a href="coming-soon.html" class="nav-link">Coming Soon</a></li>
-
-                                        <li class="nav-item"><a href="error-404.html" class="nav-link">404 Error</a></li>
-                                        
-                                        <li class="nav-item"><a href="faq.html" class="nav-link">FAQ</a></li>
-
-                                        <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
-                                        -->
-
-
-                    <li class="nav-item"><a href="../merch.html" id = 'merch' class="nav-link">Merch</a>
-                        <!--<ul class="dropdown-menu">
-                                        <li class="nav-item"><a href="speakers-1.html" class="nav-link">Speakers 1</a></li>
-
-                                        <li class="nav-item"><a href="speakers-2.html" class="nav-link">Speakers 2</a></li>
-
-                                        <li class="nav-item"><a href="speakers-3.html" class="nav-link">Speakers 3</a></li>
-                                    </ul>-->
-                    </li>
-
-                    <li class="nav-item" id="sche"><a href="../coming-soon.html" id = 'cmgsn' class="nav-link">Schedule</a>
-                    </li>
-
-                    <li class="nav-item"><a href="../sponsors.html" id = 'sponsor' class="nav-link pravega">Sponsors</a></li>
-
-                    <li class="nav-item"><a href="../faq.html" id = 'faq' class="nav-link">FAQ</a>
-
-                    </li>
-
-                    <li class="nav-item"><a href="../contact.html" id= 'contacts' class="nav-link">Contact</a></li>
-
-                    <li class="nav-item"><a href="https://iisc.ac.in/" class="nav-link">IISc</a></li>
-                </ul>
-
-                <div class="others-option">
-                    <ul>
-                        <li>
-                            <a href="../pricing-1.html" class="btn btn-primary">Register Now</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </div>
-</div>
+<div id = 'header-container'></div>
 <!-- End Navbar Area -->
     <!-- Start Coming Soon Area -->
     <!-- <section class="coming-soon">
@@ -245,7 +71,7 @@
                             <div id="seconds"></div>
                             </div>								  
 
-                        <a href="../index.html" class="btn btn-primary" style="background-color: blueviolet;">Return Home page</a>
+                        <a href="index.html" class="btn btn-primary" style="background-color: blueviolet;">Return Home page</a>
                     </div>
                 </div>
             </div>
@@ -259,8 +85,8 @@
             <h1>COGNAVI Ascend</h1>
             <span>Igniting Skills, Fueling India's Economic rise</span>
             <ul>
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../sci-tech.html">Sci-Tech</a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sci-tech.html">Sci-Tech</a></li>
                 <li>Cognavi Ascend</li>
             </ul>
         </div>
@@ -273,7 +99,7 @@
 				<div class="row h-100 align-items-center">
 					<div class="col-lg-6">
                         <div class="img-thumbnail" style="width: 525px;">
-                            <img src="../assets/img/scitech/Cognavi.jpg">
+                            <img src="assets/img/scitech/Cognavi.jpg">
                         </div>
 					</div>
 
@@ -288,8 +114,8 @@
                         </div>
                         <br>
                         <div class="button-box">
-                            <a href="./cognavi_reg.html" class="btn btn-primary" style = "margin-right: 10px;">Register Now</a>
-                            <a href="../assets/pdf/Cognavi Ascend Event Information document.docx" class="btn btn-secondary">Read More</a>
+                            <a href="sci-tech/cognavi_reg.html" class="btn btn-primary" style = "margin-right: 10px;">Register Now</a>
+                            <a href="assets/pdf/Cognavi Ascend Event Information document.docx" class="btn btn-secondary">Read More</a>
                         </div>
 					</div>
 				</div>
@@ -416,7 +242,7 @@
                         <h3>Venue</h3>
                         <span><i class="fas fa-calendar-alt"></i>26-28 January, 2024</span>
                         <p><i class="fas fa-map-marker-alt"></i> IISc, Bengaluru, Karnataka</p>
-                        <a href="../contact.html" class="contact-authority"><i class="fas fa-phone-alt"></i> Contact Us</a>
+                        <a href="contact.html" class="contact-authority"><i class="fas fa-phone-alt"></i> Contact Us</a>
                     </div>
                 </div>
 
@@ -440,14 +266,14 @@
                     <div class="copyright-area">
                         <div class="logo">
                             <a href="index.html">
-                                <img src="../assets/img/logo/pravegax.png" width="250px" alt="logo">
+                                <img src="assets/img/logo/pravegax.png" width="250px" alt="logo">
                             </a>
                         </div>
                         <ul>
                             <li><a href="#events">Events</a></li>
-                            <li><a href="../contact.html">Contact</a></li>
-                            <li><a href="../pricing-1.html">Ticket</a></li>
-                            <li><a href="../merch.html">Merchandise</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                            <li><a href="pricing-1.html">Ticket</a></li>
+                            <li><a href="merch.html">Merchandise</a></li>
                         </ul>
                         <p><i class="far fa-copyright"></i> 2023, Pravega. All rights reserved</p>
                     </div>
@@ -458,31 +284,31 @@
 	<!-- End Footer Area -->
 
     <!-- JQuery Min JS -->
-    <script src="../assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.min.js"></script>
     <!-- Bootstrap Min JS -->
-    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
     <!-- MeanMenu JS -->
-    <script src="../assets/js/jquery.meanmenu.js"></script>
+    <script src="assets/js/jquery.meanmenu.js"></script>
     <!-- WoW Min JS -->
-    <script src="../assets/js/wow.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
     <!-- Magnific Popup Min JS -->
-    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
     <!-- Fancybox Min JS -->
-    <script src="../assets/js/fancybox.min.js"></script>
+    <script src="assets/js/fancybox.min.js"></script>
     <!-- Appear Min JS -->
-    <script src="../assets/js/jquery.appear.min.js"></script>
+    <script src="assets/js/jquery.appear.min.js"></script>
     <!-- Odometer Min JS -->
-    <script src="../assets/js/odometer.min.js"></script>
+    <script src="assets/js/odometer.min.js"></script>
     <!-- Owl Carousel Min JS -->
-    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
     <!-- AjaxChimp JS -->
-    <script src="../assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
     <!-- Form Validator Min JS -->
-    <script src="../assets/js/form-validator.min.js"></script>
+    <script src="assets/js/form-validator.min.js"></script>
     <!-- Contact Form Min JS -->
-    <script src="../assets/js/contact-form-script.js"></script>
+    <script src="assets/js/contact-form-script.js"></script>
     <!-- Main JS -->
-    <script src="../assets/js/main.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>
