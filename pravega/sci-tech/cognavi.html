@@ -28,18 +28,13 @@
 	<link rel="stylesheet" href="assets/css/responsive.css">
 		<!-- IcoFont Min CSS -->
 		<link rel="stylesheet" href="assets/css/icofont.min.css">
+    <script src="assets/js/jquery.min.js"></script>
     <script lang="javascript">
-        !fetch('header.html')
-                .then(response => response.text())
-                .then(data => {
-                    //document.getElementById('header-container').innerHTML = data;
-                let oldelem = document.querySelector("div#header-container");
-                let newelem = document.createElement("ul");
-                newelem.classList.add("navbar-nav");
-                newelem.classList.add("ms-auto");
-                newelem.innerHTML = data;
-                oldelem.parentNode.replaceChild(newelem, oldelem);
-                }).then(data => {document.getElementById("events").classList.add("pravega")});
+        $(document).ready(function () {
+            $("#header-container").load("header.html", function () {
+            $("#events").addClass("pravega");
+            });
+        });
     </script>
 	<title>Pravega X - Cognavi Ascend</title>
 
@@ -66,7 +61,7 @@
                     alt="logo"></a>
 
             <div class="collapse navbar-collapse mean-menu" id="navbarSupportedContent">
-                <div id="header-container"></div>
+                <ul class="navbar-nav ms-auto" id = "header-container"></ul>
                 <div class="others-option">
                     <ul>
                         <li>
