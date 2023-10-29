@@ -788,6 +788,9 @@ Main Banner CSS
 .item-bgrbgchem {
   background-image: url("../../assets/img/scitech/chemenigma_logo.png");
 }
+.item-bgrbgbah {
+  background-image: url("../../assets/img/chem.JPG");
+}
 .item-bgsci {
   background-image: url("../../assets/img/scitech/scitech_bg.png");
 }
@@ -2845,7 +2848,7 @@ FunFacts CSS
 .funfacts-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../assets/img//bg2.JPG);
+  background-image: url(../../assets/img/bg2.JPG);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3842,7 +3845,7 @@ Signup CSS
 =================================================*/
 .error-area {
  
-  background-image: url("../img/bg3.png");
+  background-image: url("../img/color-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
