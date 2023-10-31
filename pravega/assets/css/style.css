@@ -788,6 +788,9 @@ Main Banner CSS
 .item-bgrbgchem {
   background-image: url("../../assets/img/scitech/chemenigma_logo.png");
 }
+.item-bgrbgdeco {
+  background-image: url("../../assets/img/phy1.JPG");
+}
 .item-bgrbgbah {
   background-image: url("../img/chem.JPG");
 }
