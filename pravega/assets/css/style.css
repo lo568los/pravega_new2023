@@ -794,6 +794,12 @@ Main Banner CSS
 .item-bgrbgbah {
   background-image: url("../img/chem.JPG");
 }
+.item-bgrbgbio {
+  background-image: url("../img/scitech/bio.jpg");
+}
+.item-bgrbgmath {
+  background-image: url("../img/scitech/maths.png");
+}
 .item-bgsci {
   background-image: url("../../assets/img/scitech/scitech_bg.png");
 }
