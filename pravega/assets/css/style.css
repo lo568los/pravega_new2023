@@ -809,6 +809,9 @@ Main Banner CSS
 .item-bgrbgchem {
   background-image: url("../../assets/img/chem1.JPG");
 }
+.item-bgrbgexhi {
+  background-image: url("../../assets/img/scitech/exhi.png");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
