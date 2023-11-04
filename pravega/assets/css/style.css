@@ -809,8 +809,14 @@ Main Banner CSS
 .item-bgrbgchem {
   background-image: url("../../assets/img/chem1.JPG");
 }
+.item-bgrbgeve{
+  background-image: url("../../assets/img/bg2.JPG");
+}
 .item-bgrbgexhi {
   background-image: url("../../assets/img/scitech/exhi.png");
+}
+.item-bgrbghacka {
+  background-image: url("../../assets/img/hackathons.png");
 }
 .main-banner-content {
  /* max-width: 850px;*/
