@@ -826,6 +826,10 @@ Main Banner CSS
 .item-bgrsch {
   background-image: url("../../assets/img/carvaan/carvaanlanding.png");
 }
+
+.item-bgrstem {
+  background-image: url("../../assets/img/scitech/stemposium_2.jpeg");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
