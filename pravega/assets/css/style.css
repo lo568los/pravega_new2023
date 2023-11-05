@@ -822,6 +822,10 @@ Main Banner CSS
 .item-bgrbghc {
   background-image: url("../../assets/img/scitech/hc_bg.jpeg");
 }
+
+.item-bgrsch {
+  background-image: url("../../assets/img/carvaan/carvaanlanding.png");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
