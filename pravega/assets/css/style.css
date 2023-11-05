@@ -818,6 +818,10 @@ Main Banner CSS
 .item-bgrbghacka {
   background-image: url("../../assets/img/hackathons.png");
 }
+
+.item-bgrbghc {
+  background-image: url("../../assets/img/scitech/hc_bg.jpeg");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
@@ -2206,7 +2210,7 @@ Schedule CSS
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: #efa506;
+  background-color: #FF2D55;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   position: relative;
@@ -2260,7 +2264,8 @@ Schedule CSS
 }
 
 .tabs li.current {
-  background-color: #FF2D55;
+ /*background-color: #FF2D55;*/
+ background-image: -webkit-linear-gradient(0deg,  #a92fde, #f72585 100%);
 }
 
 .tabs li.current::before {
