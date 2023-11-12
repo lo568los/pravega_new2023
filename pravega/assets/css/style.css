@@ -788,6 +788,18 @@ Main Banner CSS
 .item-bgrbgchem {
   background-image: url("../../assets/img/scitech/chemenigma_logo.png");
 }
+.item-bgrbgdeco {
+  background-image: url("../../assets/img/phy1.jpg.JPG");
+}
+.item-bgrbgbah {
+  background-image: url("../img/chem.JPG");
+}
+.item-bgrbgbio {
+  background-image: url("../img/scitech/bio.jpg");
+}
+.item-bgrbgmath {
+  background-image: url("../img/scitech/maths.png");
+}
 .item-bgsci {
   background-image: url("../../assets/img/scitech/scitech_bg.png");
 }
@@ -796,6 +808,27 @@ Main Banner CSS
 }
 .item-bgrbgchem {
   background-image: url("../../assets/img/chem1.JPG");
+}
+.item-bgrbgeve{
+  background-image: url("../../assets/img/bg2.JPG");
+}
+.item-bgrbgexhi {
+  background-image: url("../../assets/img/scitech/exhi.png");
+}
+.item-bgrbghacka {
+  background-image: url("../../assets/img/hackathons.png");
+}
+
+.item-bgrbghc {
+  background-image: url("../../assets/img/scitech/hc_bg.jpeg");
+}
+
+.item-bgrsch {
+  background-image: url("../../assets/img/carvaan/carvaanlanding.png");
+}
+
+.item-bgrstem {
+  background-image: url("../../assets/img/scitech/stemposium_2.jpeg");
 }
 .main-banner-content {
  /* max-width: 850px;*/
@@ -2185,7 +2218,7 @@ Schedule CSS
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background-color: #efa506;
+  background-color: #FF2D55;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   position: relative;
@@ -2239,7 +2272,8 @@ Schedule CSS
 }
 
 .tabs li.current {
-  background-color: #FF2D55;
+ /*background-color: #FF2D55;*/
+ background-image: -webkit-linear-gradient(0deg,  #a92fde, #f72585 100%);
 }
 
 .tabs li.current::before {
@@ -2845,7 +2879,7 @@ FunFacts CSS
 .funfacts-area {
   position: relative;
   z-index: 1;
-  background-image: url(../../assets/img//bg2.JPG);
+  background-image: url(../../assets/img/bg2.JPG);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3842,7 +3876,7 @@ Signup CSS
 =================================================*/
 .error-area {
  
-  background-image: url("../img/bg3.png");
+  background-image: url("../img/color-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
@@ -3989,6 +4023,7 @@ Coming Soon CSS
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
 
 .coming-soon::before {
   z-index: -1;
