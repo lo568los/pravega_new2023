@@ -755,16 +755,71 @@ Main Banner CSS
 .item-bgrbg {
   background-image: url("../../assets/img/scitech/robo_bg.png");
 }
+.item-bgrbg1 {
+  background-image: url("../../assets/img/culturals/template\ main\ image.jpg");
+}
+.item-bgrbg2 {
+  background-image: url("../../assets/img/culturals/crescendo_img1.png");
+}
+.item-bgrbg3 {
+  background-image: url("../../assets/img/culturals/lasya_img2.jpg");
+}
+.item-bgrbg4 {
+  background-image: url("../../assets/img/culturals/elegante_img1.jpg");
+}
+.item-bgrbg5 {
+  background-image: url("../../assets/img/culturals/dianoia_img1.jpg");
+}
+.item-bgrbg6 {
+  background-image: url("../../assets/img/culturals/cwf_img1.jpg");
+}
+.item-bgrbg7 {
+  background-image: url("../../assets/img/culturals/pandf_img1.png");
+}
+.item-bgrbg8 {
+  background-image: url("../../assets/img/culturals/shutterbugs_img1.png");
+}
+.item-bgrbg9 {
+  background-image: url("../../assets/img/culturals/mun_img1.jpg");
+}
+.item-bgrbg10 {
+  background-image: url("../../assets/img/scitech/robo_bg.png");
+}
+.item-bgrbgchem {
+  background-image: url("../../assets/img/scitech/chemenigma_logo.png");
+}
 .item-bgsci {
   background-image: url("../../assets/img/scitech/scitech_bg.png");
 }
 .item-bgcul{
   background-image: url("../../assets/img/home/ramayan.png");
 }
+.item-bgrbgchem {
+  background-image: url("../../assets/img/chem1.JPG");
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
   z-index: 1;
+}
+
+.flex-images{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: fit-content;
+  width: 100vw;
+  gap: 20px;
+  margin-bottom: 15vh;
+}
+@media screen and (max-width: 1024px) {
+  
+    .flex-images{
+      flex-direction: column;
+      gap: 10px;
+  }
+
 }
 
 .main-banner-content::before {
@@ -1500,22 +1555,44 @@ Why Choose Us CSS
 }
 
 .why-choose-us .slideshow li:nth-child(2) span {
-  background-image: url(../../assets/img/slideshow-bg2.jpg);
+  background-image: url(../../assets/img/culturals/alekhya_img2.jpg);
   -webkit-animation-delay: 6s;
           animation-delay: 6s;
 }
 
 .why-choose-us .slideshow li:nth-child(3) span {
-  background-image: url(../../assets/img/slideshow-bg3.jpg);
+  background-image: url(../../assets/img/recreationals/chess2.jpg);
   -webkit-animation-delay: 12s;
           animation-delay: 12s;
 }
 
 .why-choose-us .slideshow li:nth-child(4) span {
-  background-image: url(../../assets/img/slideshow-bg4.jpg);
+  background-image: url(../../assets/img/culturals/template\ main\ image.jpg);
   -webkit-animation-delay: 18s;
           animation-delay: 18s;
 }
+
+/*.why-choose-us .slideshow1 li:nth-child(1) span {
+  background-image: url(../../assets/img/culturals/alekhya_img2.jpg);
+}
+
+.why-choose-us .slideshow1 li:nth-child(2) span {
+  background-image: url(../../assets/img/culturals/crescendo_img1.png);
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.why-choose-us .slideshow1 li:nth-child(3) span {
+  background-image: url(../../assets/img/culturals/mun_img1.png);
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+.why-choose-us .slideshow1 li:nth-child(4) span {
+  background-image: url(../../assets/img/culturals/template\ main\ image.jpg);
+  -webkit-animation-delay: 18s;
+          animation-delay: 18s;
+}*/
 
 .col-lg-3:first-child .single-box {
   border-left: none;
@@ -1638,7 +1715,7 @@ Why Choose Us CSS
   }
 }
 
-.no-cssanimations .slideshow li span {
+.no-cssanimations .slideshow  li span {
   opacity: 1;
 }
 
@@ -3497,7 +3574,7 @@ Subscribe CSS
 /*================================================
 Page Title CSS
 =================================================*/
-.page-title-area {
+.page-title-area,.page-title-area-chem {
   position: relative;
   z-index: 1;
   background-position: center center;
@@ -3519,15 +3596,26 @@ Page Title CSS
   background: #222329;
   opacity: .88;
 }
+.page-title-area-chem::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: #323232;
+  opacity: .8;
+}
 
-.page-title-area h1 {
+.page-title-area h1,.page-title-area-chem h1  {
   color: #ffffff;
   margin-bottom: 0;
   text-transform: uppercase;
   font-size: 40px;
 }
 
-.page-title-area span {
+.page-title-area span,.page-title-area-chem span  {
   display: block;
   color: #FF2D55;
   margin-top: 10px;
@@ -3535,7 +3623,7 @@ Page Title CSS
   font-size: 17px;
 }
 
-.page-title-area ul {
+.page-title-area ul, .page-title-area-chem ul {
   padding: 0;
   margin: 0;
   list-style-type: none;
@@ -3544,7 +3632,7 @@ Page Title CSS
   right: 20px;
 }
 
-.page-title-area ul li {
+.page-title-area ul li, .page-title-area-chem ul li {
   display: inline-block;
   position: relative;
   color: #FF2D55;
@@ -3552,15 +3640,15 @@ Page Title CSS
   margin: 0 8px;
 }
 
-.page-title-area ul li a {
+.page-title-area ul li a , .page-title-area-chem ul li a {
   color: #ffffff;
 }
 
-.page-title-area ul li a:hover, .page-title-area ul li a:focus {
+.page-title-area ul li a:hover, .page-title-area ul li a:focus,.page-title-area-chem ul li a:hover, .page-title-area-chem ul li a:focus  {
   color: #00acee;
 }
 
-.page-title-area ul li::before {
+.page-title-area ul li::before, .page-title-area-chem ul li::before {
   content: '';
   position: absolute;
   left: -10px;
@@ -3573,15 +3661,15 @@ Page Title CSS
           transform: rotate(10deg);
 }
 
-.page-title-area ul li:first-child {
+.page-title-area ul li:first-child , .page-title-area-chem ul li:first-child {
   margin-left: 0;
 }
 
-.page-title-area ul li:first-child::before {
+.page-title-area ul li:first-child::before, .page-title-area-chem ul li:first-child::before {
   display: none;
 }
 
-.page-title-area ul li:last-child {
+.page-title-area ul li:first-child::before, .page-title-area-chem ul li:first-child::before {
   margin-right: 0;
 }
 
