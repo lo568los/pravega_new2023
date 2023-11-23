@@ -830,6 +830,10 @@ Main Banner CSS
 .item-bgrstem {
   background-image: url("../../assets/img/scitech/stemposium_2.jpeg");
 }
+
+.item-bgrbgpis{
+  background-image: url('../img/scitech/pis-bg.png');
+}
 .main-banner-content {
  /* max-width: 850px;*/
   position: relative;
