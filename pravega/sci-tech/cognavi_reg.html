@@ -5,7 +5,7 @@
 	<!-- Required meta tags -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 	<!-- Bootstrap Min CSS -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
 	<!-- MeanMenu CSS -->
@@ -46,14 +46,23 @@
     <section class="coming-soon">
         <div class="d-table">
             <div class="d-table-cell">
-                <div class="container">
-                    <div data-tf-live="01HDM6G0ZVGNE1HKHSD9CDG9RC"></div><script src="//embed.typeform.com/next/embed.js"></script>
-                </div>
+                
             </div>
         </div>
     </section>
     <!-- End Coming Soon Area -->
-
+    <script>
+        window.addEventListener("load", () => {
+            Swal.fire({
+                title: 'Sorry!',
+                text: 'Registration is closed',
+                icon: 'info',
+                showDenyButton: false,
+                showCancelButton: false,
+                confirmButtonText: "go to Sci-Tech Events' page",
+            })
+        })
+    </script>
     <!-- JQuery Min JS -->
     <script src="../assets/js/jquery.min.js"></script>
     <!-- Bootstrap Min JS -->
