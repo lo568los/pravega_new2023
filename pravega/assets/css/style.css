@@ -788,6 +788,9 @@ Main Banner CSS
 .item-bgrbgchem {
   background-image: url("../../assets/img/scitech/chemenigma_logo.png");
 }
+.item-bgrbgmerch {
+  background-image: url("../../assets/img/merch/_117c2e9d-ba5d-40ec-9ecc-bdb78b885123.jpeg");
+}
 .item-bgrbgdeco {
   background-image: url("../../assets/img/phy1.jpg.JPG");
 }
@@ -858,6 +861,13 @@ Main Banner CSS
   }
 
 }
+@media screen and (min-width: 767px) {
+  
+  #merch-button-for-phone{
+    display: none;
+  }
+}
+
 
 .main-banner-content::before {
   content: '';
