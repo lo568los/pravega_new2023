@@ -1866,6 +1866,9 @@ Speakers CSS
 .single-speakers {
   overflow: hidden;
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .single-speakers::before {
@@ -1877,6 +1880,11 @@ Speakers CSS
   background: linear-gradient(transparent 0%, transparent 40%, rgba(0, 0, 0, 0.3) 58%, rgba(0, 0, 0, 0.8) 89%, rgba(0, 0, 0, 0.63) 100%);
   width: 100%;
   height: 100%;
+}
+.single-speakers img {
+  object-fit: cover;
+  min-width: 100%;
+  min-height: 100%
 }
 
 .single-speakers .speakers-content {
