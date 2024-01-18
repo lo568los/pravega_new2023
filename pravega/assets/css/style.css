@@ -740,7 +740,7 @@ Main Banner CSS
 }
 
 .item-bg4 {
-  background-image: url('../../assets/img/home/ramayan.png');
+  background-image: url('../../assets/img/home/2.png');
 }
 
 .item-bg5 {
@@ -1462,7 +1462,7 @@ About CSS
 
 .about-image .about-img1 {
   position: relative;
-  right: -100px;
+  left: 20px;
   top: -80px;
   -webkit-animation: movebounce1 5s linear infinite;
   animation: movebounce1 5s linear infinite;
@@ -1470,8 +1470,8 @@ About CSS
 
 .about-image .about-img2 {
   position: absolute;
-  left: 20px;
-  bottom: -80px;
+  right: -100px;
+  bottom: -200px;
   -webkit-animation: movebounce2 5s linear infinite;
   animation: movebounce2 5s linear infinite;
 }
@@ -3031,7 +3031,7 @@ Pricing CSS
 }
 
 .pricing-area.bg-image {
-  background-image: url(../../assets/img/redbull.JPG);
+  background-image: url(../../assets/img/sponsors/monster.jpeg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -3282,6 +3282,44 @@ Partner CSS
 .partner-area .partner-item a img {
   width: unset !important;
   display: inline-block !important;
+}
+
+.partner-area .container .scrolling-bg {
+  background: url('../img/sponsors/airbus_banner.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+
+@keyframes scroll {
+  0% {
+      background-position: 0 0;
+  }
+  100% {
+      background-position: 100% 0;
+  }
+}
+
+.partner-area .container .bg-text::before {
+  content: "Title";
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.partner-area .container .bg-text::after {
+  content: "Sponsor";
+  font-size: 100px;
+  color: rgba(255, 255, 255, 0.3);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
 }
 
 .partner-area .partner-item a img:last-child {
