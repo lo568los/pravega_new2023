@@ -460,6 +460,76 @@
                 </div>
 
             </section>
+
+            <section id="section-artists">
+                    
+                <div class="container">
+                    <div class="row g-custom-x align-items-center ">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <div class="wm wow slideInUp">Comedians</div>
+                                <h2 class="wow fadeInUp" data-wow-delay=".2s"> Comedy show Line up
+                                </h2>
+                                <div class="small-border bg-color-2"></div>
+                                <div class="spacer-single"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <ul class="main-box2">
+                            
+                                <li class="box2"><span>
+                                    <div class='id-color'>Rajat Chauhan</div>
+                                </span>
+
+                                <div class="detail" style="background-image: url(images-dj/misc/RC.jpg);">
+
+                                </div>
+                                </li>
+
+                                <li class="box2 active "><span>
+                                        <div class='id-color'>Devesh Dixit</div>
+                                    </span>
+
+                                    <div class="detail active" style="background-image: url(images-dj/misc/DD.jpg);">
+
+                                    </div>
+                                </li>
+                                
+                                <li class="box2"><span>
+                                        <div class='id-color'>Gaurav kapoor</div>
+                                    </span>
+                                    <div class="detail" style="background-image: url(images-dj/misc/GK.jpg);">
+
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+                    <script>
+                        var getslide = $('.main-box2 li').length - 1;
+
+                        var slidecal = 30 / getslide + '%';
+                        var currentSlide = 0;
+
+                        $('.box2').css({ "width": slidecal });
+
+                        $('.box2').click(function () {
+                            $('.box2').removeClass('active');
+                            $(this).addClass('active');
+                            currentSlide = $(this).index();
+                        });
+                        setInterval(function () {
+                            $('.box2').removeClass('active');
+                            currentSlide = (currentSlide + 1) % $('.box2').length;
+                            $('.box2').eq(currentSlide).addClass('active');
+                        }, 7000);
+                    </script>
+
+                </div>
+
+            </section>
+            
             <section id="section-schedule" class="video-background overlay2" aria-label="section-services-tab">
                 <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                     <!--Youtube Video-->
@@ -502,6 +572,9 @@
                                                 <li>
                                                     <h3>Farhan Akhtar</h3><span></span>
                                                 </li>
+                                                <li>
+                                                    <h3>Rajat Chauhan</h3><span></span>
+                                                </li>
                                             </ul>
                                         </div>
                                     </div>
@@ -515,6 +588,9 @@
                                                 </li>
                                                 <li>
                                                     <h3>Aastha Gill</h3><span></span>
+                                                </li>
+                                                <li>
+                                                    <h3>Devesh Dixit</h3><span></span>
                                                 </li>
 
                                             </ul>
@@ -531,7 +607,9 @@
                                                 <li>
                                                     <h3>Mohit Chauhan</h3><span></span>
                                                 </li>
-
+                                                <li>
+                                                    <h3>Gaurav Kapoor</h3><span></span>
+                                                </li>
 
                                             </ul>
                                         </div>
