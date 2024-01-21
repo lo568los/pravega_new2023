@@ -37,28 +37,33 @@
 	width: 14%;
 }
 .countdown-section {
-	display: block;
-	float: left;
-	font-size: 14px;
-	text-align: center;
-	color:rgba(255,255,255,.6);
-	text-transform:uppercase;
-	letter-spacing:1px;
+    display: block;
+    float: left;
+    font-size: 12px; /* Reduced font size */
+    text-align: center;
+    color:rgba(255,255,255,.6);
+    text-transform:uppercase;
+    letter-spacing:1px;
 }
+
 .countdown-amount {
-	font-family:var(--title-font);
-    font-size: 72px;
-	color:#fff;
-	text-align: center;
-	font-weight: normal;
+    font-family:var(--title-font);
+    font-size: 2em;
+    color:#fff;
+	width: auto;
+    text-align: center;
+    font-weight: normal;
+	white-space: nowrap; 
 }
+
 .countdown-period {
     display: block;
-	margin:0 auto;
-	margin-top:5px;
-	font-size: 14px;
-	text-align: center;
+    margin:0 auto;
+    margin-top:3px; /* Reduced margin-top */
+    font-size: 12px; /* Reduced font size */
+    text-align: center;
 }
+
 .countdown-descr {
 	display: block;
 	width: 100%;
