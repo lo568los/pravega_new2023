@@ -56,7 +56,7 @@
 
     // Count Time 
     function makeTimer() {
-        var endTime = new Date("January 26, 2024 ");			
+        var endTime = new Date("Fri Jan 26 2024 14:00:00 GMT+0530 (India Standard Time)");			
         var endTime = (Date.parse(endTime)) / 1000;
         var now = new Date();
         var now = (Date.parse(now) / 1000);
